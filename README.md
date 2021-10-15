@@ -1,5 +1,5 @@
 # pidd-iteratively-imputing-missing-data
-This jupyter notebook was developed to be a tutorial on how to handle missing data using scikit-learn's IterativeImputer and shows the differences in predictions made after modeling on the iteratively imputed datasets vs datasets with imputations of other means.
+This jupyter notebook was developed to be a tutorial on how to handle missing data using scikit-learn's [IterativeImputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html) and shows the differences in predictions made after modeling on the iteratively imputed datasets vs datasets with imputations of other means.
 The dataset used for this notebook is PIMA Indian's Diabetes Database which can be found on [Kaggle](https://www.kaggle.com/uciml/pima-indians-diabetes-database) for free. 
 I've created multiple functions so that users can test out their own estimator-order-model sets to better understand how IterativeImputer works.
 To view my notebook on Kaggle, [click here!](https://www.kaggle.com/gifarihoque/pidd-missing-data-ml-iterimputer-tut-86)<br><br>
